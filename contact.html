@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoKomis Rakowski Włocławek skup aut używanych</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd39fce002.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+    <header class="header-nav">
+        <nav class="nav-mobile">
+            <div class="burger-box">
+                <button class="burger-btn"><i class="fa-solid fa-bars burger-icon"></i></button>
+            </div>
+            <div class="nav-mobile-box">
+                <div class="nav-mobile-list">
+                    <a href="index.html#" class="nav-mobile-list-item">Home</a>
+                    <a href="index.html#aboutus" class="nav-mobile-list-item">O nas</a>
+                    <a href="offers.html#" class="nav-mobile-list-item">Oferta</a>
+                    <a href="index.html#rent" class="nav-mobile-list-item">Wynajem</a>
+                    <a href="contact.html" class="nav-mobile-list-item">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav-desktop">
+            <div class="wrapper">
+                <div class="nav-desktop-box">
+                    <a href="index.html#" class="nav-desktop-item">Home</a>
+                    <a href="index.html#aboutus" class="nav-desktop-item">O nas</a>
+                    <a href="offers.html#" class="nav-desktop-item">Oferta</a>
+                    <a href="index.html#rent" class="nav-desktop-item">Wynajem</a>
+                    <a href="contact.html" class="nav-desktop-item">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="map-and-contact wrapper">
+            <div class="section-title-box">
+                <h2 class="section-title">Tutaj nas znajdziesz!</h2>
+            </div>
+            <div class="map-and-contact-flex">
+                <div class="map-contact">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.1182041236125!2d19.109123077104446!3d52.67590322467476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471c9b0702eac0c9%3A0x9518d32ac211e2d3!2sAuto%20komis%20Rakowski!5e0!3m2!1spl!2spl!4v1715547386498!5m2!1spl!2spl"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-adress">
+                    <h3 class="section-second-title">Dane Kontaktowe:</h3>
+                    <ul class="contact-list">
+                        <li class="contact-list-item adress">Adres:</li>
+                        <li class="contact-list-item">Wiślana 55a</li>
+                        <li class="contact-list-item city">87-811 Szpetal Górny</li>
+                        <li class="contact-list-item phone"><a class="a-info" href="tel:+48604900686" target="_blank"><i
+                                    class="fa-solid fa-phone"></i> +48 604 900 686</a></li>
+                        <li class="contact-list-item phone"><a class="a-info" href="tel:+48606626451" target="_blank"><i
+                                    class="fa-solid fa-phone"></i> +48 606 626 451</a></li>
+                        <li class="contact-list-item phone"><a class="a-info" href="tel:+48519788066" target="_blank"><i
+                                    class="fa-solid fa-phone"></i> +48 519 788 066</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="form-contact" id="form">
+            <div class="wrapper">
+                <div class="contact-box">
+                    <div class="section-title-box">
+                        <h2 class="section-title">Skontaktuj się z nami!</h2>
+                    </div>
+                    <div class="form-contact-box">
+                        <form action="mail.php" method="post" class="contact-form">
+
+                            <div class="contact-box">
+                                <label for="name" class="label">Imię:</label>
+                                <input type="text" id="name" name="name" class="input" required>
+                            </div>
+                            <div class="contact-box">
+                                <label for="email" class="label">Email:</label>
+                                <input type="email" id="email" name="email" class="input" required>
+                            </div>
+                            <div class="contact-box">
+                                <label for="msg" class="label">Wiadomość:</label>
+                                <textarea name="msg" id="msg" class="textarea" required></textarea>
+                            </div>
+
+                            <p class="msg-status"></p>
+                            <button class="btn btn-special-animation">Wyślij</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="wrapper">
+        <div class="footer-boxes">
+            <div class="footer-box">
+                <h3 class="footer-box-title">Godziny Otwarcia</h3>
+                <ul class="footer-box-list">
+                    <li class="footer-box-list-item">Poniedziałek-Piątek:<span class="hours"> 8-17</span></li>
+                    <li class="footer-box-list-item">Sobota:<span class="hours"> 8-14</span></li>
+                    <li class="footer-box-list-item">Niedziela:<span class="hours"> Nieczynne</span></li>
+                </ul>
+            </div>
+            <div class="footer-box map-box">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.1182041236125!2d19.109123077104446!3d52.67590322467476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471c9b0702eac0c9%3A0x9518d32ac211e2d3!2sAuto%20komis%20Rakowski!5e0!3m2!1spl!2spl!4v1715691678769!5m2!1spl!2spl"
+                    class="map" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-box footer-box-desktop">
+                <h3 class="footer-box-title">Wynajem Włocławek</h3>
+                <ul class="footer-box-list">
+                    <li class="footer-box-list-item"><a href="./rent.html#car-carrier">Autolawety</a></li>
+                    <li class="footer-box-list-item"><a href="./rent.html#trailer">Lawety</a></li>
+                    <li class="footer-box-list-item"><a href="./rent.html#minibus">Busy</a></li>
+                </ul>
+            </div>
+            <div class="footer-box footer-box-desktop">
+                <h3 class="footer-box-title">Auta Włocławek</h3>
+                <ul class="footer-box-list">
+                    <li class="footer-box-list-item"><a href="./offers.html">Ford</a></li>
+                    <li class="footer-box-list-item"><a href="./offers.html">BMW</a></li>
+                    <li class="footer-box-list-item"><a href="./offers.html">Volkswagen</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-bottom-text">&copy; <span class="footer__year"></span> <span class="company">Fortuna
+                    Andrzej Rakowski</span></p>
+        </div>
+    </div>
+</footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./src/js/slick.js"></script>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
